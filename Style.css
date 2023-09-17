@@ -1,0 +1,74 @@
+/* ===============================Body=========================================== */
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(241, 236, 236);
+    background-image: url("/Images/BackImage.jpg");
+}
+/* =============================Main Container=================================== */
+.container {
+    text-align: center;
+    margin: 0px auto;
+    margin-top: 40px;
+    overflow-y: auto;
+    width: 350px;
+    height: 80vh;
+    padding: 18px;
+    background-image: url("/Images/Background_Image.jpg");
+    border: 3px solid rgb(12, 65, 65);
+    border-radius: 10px;
+}
+.move{
+    margin-bottom: 50px;
+}
+h1 {
+    color: #333;
+    font-size: 35px;
+    font-weight: 700;
+}
+/* =============================Input=================================== */
+input[type="text"] {
+    width: 60%;
+    padding: 10px 20px;
+    margin-right: 5px;
+    border-radius: 5px;
+    border: 1px solid black;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1),5px 5px 15px rgba(0, 0, 0, 0.2);
+}
+/* =============================Button=================================== */
+button {
+    padding: 10px 20px;
+    background-color:rgb(52, 47, 47);
+    border-radius: 5px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+/* =================================Task List==================================== */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid black;
+    padding: 5px;
+    background-color: #f8f8f8;
+    margin: 0px 12px 0px 12px;
+    margin-top: 10px;
+    border-radius: 5px;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1),5px 5px 15px rgba(0, 0, 0, 0.2);
+}
+/* =============================Delete=================================== */
+.delete-button {
+    background-color: #FF5252;
+    color: #fff;
+    border: none;
+    padding: 4px 8px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+/* ===========================CSS ends================================== */
